@@ -1,0 +1,54 @@
+.course-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    
+    .course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .course-header {
+    margin-bottom: 16px;
+    }
+    
+    .course-header h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    }
+    
+    .student-count, .instructor {
+    font-size: 14px;
+    color: #7f8c8d;
+    }
+    
+    .course-progress {
+    margin-bottom: 20px;
+    }
+    
+    .progress-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    font-size: 14px;
+    }
+    
+    .course-actions {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .course-card.available {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    
+    .enroll-btn {
+    background-color: #2ecc71;
+    color: white;
+    margin-top: 16px;
+    }
